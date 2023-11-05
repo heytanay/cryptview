@@ -1,0 +1,67 @@
+The provided code is a GUI application is made in python and is made in PyCharm IDE that asks the user for a username and password. It utilizes the Tkinter library for creating the graphical user interface. The application follows the following workflow:
+
+1. The user is prompted to enter a username and password.
+2. If it is the first time logging in (default password is "Default"), the user is asked to set a new password.
+3. If the entered username and password are valid, a welcome window is displayed.
+4. The welcome window shows a PDF file that has the same name as the username. The PDF is displayed using the PyPDF2 library.
+
+Libraries used in the code:
+- Tkinter: A standard GUI toolkit for Python.
+- PyPDF2: A library for reading and manipulating PDF files.
+
+The code provides a basic structure for the described functionality. 
+However, there might be some issues related to the specific versions of the libraries used, as there have been 
+deprecations and changes in the PyPDF2 library. It's recommended to update the code and use PdfReader instead of PdfFileReader to avoid any deprecation-related issues.
+
+
+INSTALLATION AND PRE-REQUISITES
+PyPDF2==1.26.0
+tkinter
+
+
+To install these dependencies, you can use the following command:
+
+Copy code
+pip install -r requirements.txt
+Make sure you run this command in the same directory where the requirements.txt file is located.
+
+NOTE:Change the path to the directory (in line 101) where the pdf files are present so that the code
+can recognise the pdf files whose name is same as of the username.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
