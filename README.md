@@ -1,21 +1,38 @@
-# cryptview
-A secure and user-friendly authentication system that allows users to set and update passwords, ensuring only authorized individuals can access sensitive PDF documents.
+# CryptView
 
-Features
-1.Enhanced document security: Developed a secure PDF viewer application that encrypts sensitive documents using robust encryption algorithms, safeguarding them from unauthorized access.
+CryptView is an application that provides a secure and user-friendly environment for viewing PDF documents. It ensures document privacy through robust encryption and offers an intuitive interface for effortless navigation.
 
-2.User-friendly interface: Created an intuitive and user-friendly interface that enables seamless navigation and interaction with PDF files, ensuring a smooth user experience.
+## Features
 
-3.Password management: Implemented a password management system that allows users to set and change passwords, providing flexibility and control over document access.
+- **Secure Document Viewing**: Robust encryption algorithms to safeguard sensitive PDF documents.
+- **Intuitive User Interface**: Sleek and user-friendly design for seamless navigation.
+- **Password Management**: Dynamic password system allowing users to set and modify passwords effortlessly.
+- **Smart Search**: Powerful search functionality for quick content discovery within PDF files.
+- **Cross-Platform Compatibility**: Consistent and accessible viewing experience on various devices.
+- **File Organization**: Efficient features for organizing and categorizing PDF documents.
+- **Optimized Performance**: Fast document loading for a smooth reading experience.
+- **Error Handling**: Robust mechanisms to ensure reliable and glitch-free operation.
+- **Collaborative Spirit**: Developed through cross-functional collaboration, blending programming, UI design, and security expertise.
 
-4.Efficient document search: Incorporated a powerful search functionality that enables users to quickly locate specific content within PDF documents, saving time and improving productivity.
+## Technologies Used
 
-5.Cross-platform compatibility: Designed the application to be compatible with multiple operating systems, allowing users to access and view encrypted PDF files on various devices.
+- **Python**: Primary programming language.
+- **Tkinter**: GUI toolkit for building the graphical interface.
+- **pdfplumber**: Python library for extracting text, images, and metadata from PDF files.
+- **PyPDF2**: Library for reading and manipulating PDF documents.
+- **File Dialog (tkinter.filedialog)**: Used for file selection dialog in the GUI.
+- **Basic Python Libraries**: e.g., `os` for operating system interactions, `sys` for system-specific parameters.
 
-6.Password recovery: Developed a password recovery mechanism that assists users in retrieving their passwords in case they are forgotten or misplaced, preventing data loss.
+## Usage
 
-7.File organization: Implemented features to organize and categorize PDF documents, making it easy for users to manage and retrieve files efficiently.
+1. Clone the repository: `git clone https://github.com/selzlett/SecurePDFViewer.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the application: `python securepdfviewer.py`
 
-8.Performance optimization: Optimized the application's performance to ensure fast and responsive document loading, providing a smooth reading experience even for large PDF files.
+## Contributing
 
-9.Error handling: Implemented robust error handling mechanisms
+Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details.
